@@ -1,6 +1,6 @@
 class Song
 
-  
+
   @@count = 0
   @@artists = []
   @@genres = []
@@ -14,7 +14,7 @@ class Song
     @artist = artist
     @genre = genre
 
-    
+
     @@artists << artist
     @@genres << genre
 
